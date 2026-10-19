@@ -1,0 +1,250 @@
+[
+  {
+    "m": 2,
+    "n": 7,
+    "witness": 24,
+    "bipartite": 23,
+    "algorithm_value": 24,
+    "witness_ratio": 1.0434782608695652
+  },
+  {
+    "m": 3,
+    "n": 9,
+    "witness": 44,
+    "bipartite": 39,
+    "algorithm_value": 44,
+    "witness_ratio": 1.1282051282051282
+  },
+  {
+    "m": 4,
+    "n": 11,
+    "witness": 70,
+    "bipartite": 59,
+    "algorithm_value": 70,
+    "witness_ratio": 1.1864406779661016
+  },
+  {
+    "m": 5,
+    "n": 13,
+    "witness": 102,
+    "bipartite": 83,
+    "algorithm_value": 102,
+    "witness_ratio": 1.2289156626506024
+  },
+  {
+    "m": 6,
+    "n": 15,
+    "witness": 140,
+    "bipartite": 111,
+    "algorithm_value": 140,
+    "witness_ratio": 1.2612612612612613
+  },
+  {
+    "m": 7,
+    "n": 17,
+    "witness": 184,
+    "bipartite": 143,
+    "algorithm_value": 184,
+    "witness_ratio": 1.2867132867132867
+  },
+  {
+    "m": 8,
+    "n": 19,
+    "witness": 234,
+    "bipartite": 179,
+    "algorithm_value": 234,
+    "witness_ratio": 1.3072625698324023
+  },
+  {
+    "m": 9,
+    "n": 21,
+    "witness": 290,
+    "bipartite": 219,
+    "algorithm_value": 290,
+    "witness_ratio": 1.3242009132420092
+  },
+  {
+    "m": 10,
+    "n": 23,
+    "witness": 352,
+    "bipartite": 263,
+    "algorithm_value": 352,
+    "witness_ratio": 1.338403041825095
+  },
+  {
+    "m": 11,
+    "n": 25,
+    "witness": 420,
+    "bipartite": 311,
+    "algorithm_value": 420,
+    "witness_ratio": 1.3504823151125402
+  },
+  {
+    "m": 12,
+    "n": 27,
+    "witness": 494,
+    "bipartite": 363,
+    "algorithm_value": 494,
+    "witness_ratio": 1.3608815426997245
+  },
+  {
+    "m": 13,
+    "n": 29,
+    "witness": 574,
+    "bipartite": 419,
+    "algorithm_value": 574,
+    "witness_ratio": 1.369928400954654
+  },
+  {
+    "m": 14,
+    "n": 31,
+    "witness": 660,
+    "bipartite": 479,
+    "algorithm_value": 660,
+    "witness_ratio": 1.3778705636743216
+  },
+  {
+    "m": 15,
+    "n": 33,
+    "witness": 752,
+    "bipartite": 543,
+    "algorithm_value": 752,
+    "witness_ratio": 1.3848987108655617
+  },
+  {
+    "m": 16,
+    "n": 35,
+    "witness": 850,
+    "bipartite": 611,
+    "algorithm_value": 850,
+    "witness_ratio": 1.3911620294599019
+  },
+  {
+    "m": 17,
+    "n": 37,
+    "witness": 954,
+    "bipartite": 683,
+    "algorithm_value": 954,
+    "witness_ratio": 1.396778916544656
+  },
+  {
+    "m": 18,
+    "n": 39,
+    "witness": 1064,
+    "bipartite": 759,
+    "algorithm_value": 1064,
+    "witness_ratio": 1.401844532279315
+  },
+  {
+    "m": 19,
+    "n": 41,
+    "witness": 1180,
+    "bipartite": 839,
+    "algorithm_value": 1180,
+    "witness_ratio": 1.4064362336114422
+  },
+  {
+    "m": 20,
+    "n": 43,
+    "witness": 1302,
+    "bipartite": 923,
+    "algorithm_value": 1302,
+    "witness_ratio": 1.4106175514626218
+  },
+  {
+    "m": 21,
+    "n": 45,
+    "witness": 1430,
+    "bipartite": 1011,
+    "algorithm_value": 1430,
+    "witness_ratio": 1.4144411473788328
+  },
+  {
+    "m": 22,
+    "n": 47,
+    "witness": 1564,
+    "bipartite": 1103,
+    "algorithm_value": 1564,
+    "witness_ratio": 1.4179510426110606
+  },
+  {
+    "m": 23,
+    "n": 49,
+    "witness": 1704,
+    "bipartite": 1199,
+    "algorithm_value": 1704,
+    "witness_ratio": 1.421184320266889
+  },
+  {
+    "m": 24,
+    "n": 51,
+    "witness": 1850,
+    "bipartite": 1299,
+    "algorithm_value": 1850,
+    "witness_ratio": 1.4241724403387221
+  },
+  {
+    "m": 25,
+    "n": 53,
+    "witness": 2002,
+    "bipartite": 1403,
+    "algorithm_value": 2002,
+    "witness_ratio": 1.4269422665716323
+  },
+  {
+    "m": 26,
+    "n": 55,
+    "witness": 2160,
+    "bipartite": 1511,
+    "algorithm_value": 2160,
+    "witness_ratio": 1.4295168762409
+  },
+  {
+    "m": 27,
+    "n": 57,
+    "witness": 2324,
+    "bipartite": 1623,
+    "algorithm_value": 2324,
+    "witness_ratio": 1.4319162045594578
+  },
+  {
+    "m": 28,
+    "n": 59,
+    "witness": 2494,
+    "bipartite": 1739,
+    "algorithm_value": 2494,
+    "witness_ratio": 1.4341575618171363
+  },
+  {
+    "m": 29,
+    "n": 61,
+    "witness": 2670,
+    "bipartite": 1859,
+    "algorithm_value": 2670,
+    "witness_ratio": 1.436256051640667
+  },
+  {
+    "m": 30,
+    "n": 63,
+    "witness": 2852,
+    "bipartite": 1983,
+    "algorithm_value": 2852,
+    "witness_ratio": 1.438224911749874
+  },
+  {
+    "m": 100,
+    "n": 203,
+    "witness": 30502,
+    "bipartite": 20603,
+    "algorithm_value": 30502,
+    "witness_ratio": 1.4804640100956172
+  },
+  {
+    "m": 1000,
+    "n": 2003,
+    "witness": 3005002,
+    "bipartite": 2006003,
+    "algorithm_value": 3005002,
+    "witness_ratio": 1.498004738776562
+  }
+]

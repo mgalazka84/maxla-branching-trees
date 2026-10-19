@@ -1,0 +1,2 @@
+# Used for the recorded checks; Python 3.12+.
+networkx==3.7

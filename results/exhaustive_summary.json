@@ -1,0 +1,137 @@
+[
+  {
+    "n": 1,
+    "trees": 1,
+    "max_hubs": 0,
+    "nonbipartite_optimum": 0,
+    "mismatches": 0,
+    "solver_seconds": 1.8e-05,
+    "oracle_seconds": 6.4e-05
+  },
+  {
+    "n": 2,
+    "trees": 1,
+    "max_hubs": 0,
+    "nonbipartite_optimum": 0,
+    "mismatches": 0,
+    "solver_seconds": 2.1e-05,
+    "oracle_seconds": 3.6e-05
+  },
+  {
+    "n": 3,
+    "trees": 1,
+    "max_hubs": 0,
+    "nonbipartite_optimum": 0,
+    "mismatches": 0,
+    "solver_seconds": 1.9e-05,
+    "oracle_seconds": 2.5e-05
+  },
+  {
+    "n": 4,
+    "trees": 2,
+    "max_hubs": 1,
+    "nonbipartite_optimum": 0,
+    "mismatches": 0,
+    "solver_seconds": 0.000235,
+    "oracle_seconds": 3.5e-05
+  },
+  {
+    "n": 5,
+    "trees": 3,
+    "max_hubs": 1,
+    "nonbipartite_optimum": 0,
+    "mismatches": 0,
+    "solver_seconds": 0.000202,
+    "oracle_seconds": 3.6e-05
+  },
+  {
+    "n": 6,
+    "trees": 6,
+    "max_hubs": 2,
+    "nonbipartite_optimum": 0,
+    "mismatches": 0,
+    "solver_seconds": 0.000455,
+    "oracle_seconds": 5e-05
+  },
+  {
+    "n": 7,
+    "trees": 11,
+    "max_hubs": 2,
+    "nonbipartite_optimum": 1,
+    "mismatches": 0,
+    "solver_seconds": 0.001029,
+    "oracle_seconds": 0.000103
+  },
+  {
+    "n": 8,
+    "trees": 23,
+    "max_hubs": 3,
+    "nonbipartite_optimum": 1,
+    "mismatches": 0,
+    "solver_seconds": 0.002864,
+    "oracle_seconds": 0.000193
+  },
+  {
+    "n": 9,
+    "trees": 47,
+    "max_hubs": 3,
+    "nonbipartite_optimum": 4,
+    "mismatches": 0,
+    "solver_seconds": 0.007975,
+    "oracle_seconds": 0.000509
+  },
+  {
+    "n": 10,
+    "trees": 106,
+    "max_hubs": 4,
+    "nonbipartite_optimum": 8,
+    "mismatches": 0,
+    "solver_seconds": 0.02778,
+    "oracle_seconds": 0.001089
+  },
+  {
+    "n": 11,
+    "trees": 235,
+    "max_hubs": 4,
+    "nonbipartite_optimum": 22,
+    "mismatches": 0,
+    "solver_seconds": 0.052523,
+    "oracle_seconds": 0.004187
+  },
+  {
+    "n": 12,
+    "trees": 551,
+    "max_hubs": 5,
+    "nonbipartite_optimum": 58,
+    "mismatches": 0,
+    "solver_seconds": 0.172928,
+    "oracle_seconds": 0.020042
+  },
+  {
+    "n": 13,
+    "trees": 1301,
+    "max_hubs": 5,
+    "nonbipartite_optimum": 136,
+    "mismatches": 0,
+    "solver_seconds": 0.606157,
+    "oracle_seconds": 0.099372
+  },
+  {
+    "n": 14,
+    "trees": 3159,
+    "max_hubs": 6,
+    "nonbipartite_optimum": 389,
+    "mismatches": 0,
+    "solver_seconds": 1.942172,
+    "oracle_seconds": 0.437366
+  },
+  {
+    "n": 15,
+    "trees": 7741,
+    "max_hubs": 6,
+    "nonbipartite_optimum": 927,
+    "mismatches": 0,
+    "solver_seconds": 6.813676,
+    "oracle_seconds": 2.238418
+  }
+]
