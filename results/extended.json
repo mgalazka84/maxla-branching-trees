@@ -1,0 +1,6882 @@
+{
+  "date": "2026-10-23",
+  "python": "3.12.14",
+  "networkx": "3.7",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "compile_flags": "-std=c++17 -O3 -shared -fPIC",
+  "seed": 20261023,
+  "hardware_note": "Shared virtual host; single-process wall times, no dedicated CPU reservation.",
+  "controlled": [
+    {
+      "b": 1,
+      "n": 7,
+      "extra_arms_per_hub": 0,
+      "solver": {
+        "value": 25,
+        "median_seconds": 4.63619981019292e-05,
+        "min_seconds": 3.885999831254594e-05,
+        "max_seconds": 0.00033486699976492673,
+        "repeats": 5,
+        "bridge_assignments": 1,
+        "hub_assignments": 4,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 6
+      },
+      "baseline_aef": {
+        "value": 25,
+        "median_seconds": 7.702001312281936e-06,
+        "min_seconds": 6.350001058308408e-06,
+        "max_seconds": 1.5664998500142246e-05,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 1,
+      "n": 41,
+      "extra_arms_per_hub": 10,
+      "solver": {
+        "value": 997,
+        "median_seconds": 0.00011972500215051696,
+        "min_seconds": 8.699499812792055e-05,
+        "max_seconds": 0.0001714350000838749,
+        "repeats": 5,
+        "bridge_assignments": 1,
+        "hub_assignments": 4,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 10
+      },
+      "baseline_aef": {
+        "value": 997,
+        "median_seconds": 3.180899875587784e-05,
+        "min_seconds": 3.142800051136874e-05,
+        "max_seconds": 3.692699829116464e-05,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 1,
+      "n": 308,
+      "extra_arms_per_hub": 100,
+      "solver": {
+        "value": 58888,
+        "median_seconds": 0.0005073030006315093,
+        "min_seconds": 0.0004453669971553609,
+        "max_seconds": 0.0006142890015325975,
+        "repeats": 5,
+        "bridge_assignments": 1,
+        "hub_assignments": 4,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 12
+      },
+      "baseline_aef": {
+        "value": 58888,
+        "median_seconds": 0.0003641319999587722,
+        "min_seconds": 0.00026789399998961017,
+        "max_seconds": 0.001064167998265475,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 1,
+      "n": 2969,
+      "extra_arms_per_hub": 1000,
+      "solver": {
+        "value": 5511162,
+        "median_seconds": 0.005566493997321231,
+        "min_seconds": 0.004982041999028297,
+        "max_seconds": 0.020268521999241784,
+        "repeats": 5,
+        "bridge_assignments": 1,
+        "hub_assignments": 4,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 12
+      },
+      "baseline_aef": {
+        "value": 5511162,
+        "median_seconds": 0.0035447929985821247,
+        "min_seconds": 0.0030928850028431043,
+        "max_seconds": 0.003709186999913072,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 2,
+      "n": 21,
+      "extra_arms_per_hub": 0,
+      "solver": {
+        "value": 236,
+        "median_seconds": 0.0005897499977436382,
+        "min_seconds": 0.0004616030018951278,
+        "max_seconds": 0.0006001570000080392,
+        "repeats": 5,
+        "bridge_assignments": 8,
+        "hub_assignments": 72,
+        "feasible_assignments": 60,
+        "histogram_evaluations": 82
+      },
+      "baseline_aef": {
+        "value": 236,
+        "median_seconds": 3.075700078625232e-05,
+        "min_seconds": 2.8182999812997878e-05,
+        "max_seconds": 6.670299990219064e-05,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 2,
+      "n": 79,
+      "extra_arms_per_hub": 10,
+      "solver": {
+        "value": 3830,
+        "median_seconds": 0.0010631810000631958,
+        "min_seconds": 0.0009859320016403217,
+        "max_seconds": 0.0012749279994750395,
+        "repeats": 5,
+        "bridge_assignments": 8,
+        "hub_assignments": 128,
+        "feasible_assignments": 60,
+        "histogram_evaluations": 213
+      },
+      "baseline_aef": {
+        "value": 3830,
+        "median_seconds": 0.00010567299977992661,
+        "min_seconds": 0.00010271800056216307,
+        "max_seconds": 0.0002266100018459838,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 2,
+      "n": 636,
+      "extra_arms_per_hub": 100,
+      "solver": {
+        "value": 255977,
+        "median_seconds": 0.002295223999681184,
+        "min_seconds": 0.001881023999885656,
+        "max_seconds": 0.0032975310023175552,
+        "repeats": 5,
+        "bridge_assignments": 8,
+        "hub_assignments": 128,
+        "feasible_assignments": 60,
+        "histogram_evaluations": 253
+      },
+      "baseline_aef": {
+        "value": 255977,
+        "median_seconds": 0.0013557240017689764,
+        "min_seconds": 0.0010620899993227795,
+        "max_seconds": 0.011261356001341483,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 2,
+      "n": 5974,
+      "extra_arms_per_hub": 1000,
+      "solver": {
+        "value": 22819257,
+        "median_seconds": 0.013042495997069636,
+        "min_seconds": 0.012661277000006521,
+        "max_seconds": 0.028810339001211105,
+        "repeats": 5,
+        "bridge_assignments": 8,
+        "hub_assignments": 128,
+        "feasible_assignments": 60,
+        "histogram_evaluations": 268
+      },
+      "baseline_aef": {
+        "value": 22819257,
+        "median_seconds": 0.026435142000991618,
+        "min_seconds": 0.014319216999865603,
+        "max_seconds": 0.03325124500042875,
+        "repeats": 5
+      }
+    },
+    {
+      "b": 3,
+      "n": 31,
+      "extra_arms_per_hub": 0,
+      "solver": {
+        "value": 518,
+        "median_seconds": 0.0042675479999161325,
+        "min_seconds": 0.004126750998693751,
+        "max_seconds": 0.0047645759987062775,
+        "repeats": 5,
+        "bridge_assignments": 64,
+        "hub_assignments": 1152,
+        "feasible_assignments": 836,
+        "histogram_evaluations": 836
+      }
+    },
+    {
+      "b": 3,
+      "n": 115,
+      "extra_arms_per_hub": 10,
+      "solver": {
+        "value": 8146,
+        "median_seconds": 0.01571177599907969,
+        "min_seconds": 0.013975746001960943,
+        "max_seconds": 0.01586578400019789,
+        "repeats": 5,
+        "bridge_assignments": 64,
+        "hub_assignments": 4096,
+        "feasible_assignments": 964,
+        "histogram_evaluations": 3612
+      }
+    },
+    {
+      "b": 3,
+      "n": 929,
+      "extra_arms_per_hub": 100,
+      "solver": {
+        "value": 547402,
+        "median_seconds": 0.02643992900266312,
+        "min_seconds": 0.02307017700150027,
+        "max_seconds": 0.030379017000086606,
+        "repeats": 5,
+        "bridge_assignments": 64,
+        "hub_assignments": 4096,
+        "feasible_assignments": 964,
+        "histogram_evaluations": 4596
+      }
+    },
+    {
+      "b": 3,
+      "n": 9057,
+      "extra_arms_per_hub": 1000,
+      "solver": {
+        "value": 52223401,
+        "median_seconds": 0.04966010899806861,
+        "min_seconds": 0.04388780699810013,
+        "max_seconds": 0.07449317200007499,
+        "repeats": 5,
+        "bridge_assignments": 64,
+        "hub_assignments": 4096,
+        "feasible_assignments": 964,
+        "histogram_evaluations": 4559
+      }
+    },
+    {
+      "b": 4,
+      "n": 40,
+      "extra_arms_per_hub": 0,
+      "solver": {
+        "value": 867,
+        "median_seconds": 0.06610632899901248,
+        "min_seconds": 0.06172578600308043,
+        "max_seconds": 0.07428167999751167,
+        "repeats": 5,
+        "bridge_assignments": 512,
+        "hub_assignments": 18432,
+        "feasible_assignments": 11644,
+        "histogram_evaluations": 11644
+      }
+    },
+    {
+      "b": 4,
+      "n": 152,
+      "extra_arms_per_hub": 10,
+      "solver": {
+        "value": 14323,
+        "median_seconds": 0.31614095699842437,
+        "min_seconds": 0.2887368440024147,
+        "max_seconds": 0.3856916810000257,
+        "repeats": 5,
+        "bridge_assignments": 512,
+        "hub_assignments": 131072,
+        "feasible_assignments": 15484,
+        "histogram_evaluations": 59207
+      }
+    },
+    {
+      "b": 4,
+      "n": 1247,
+      "extra_arms_per_hub": 100,
+      "solver": {
+        "value": 987745,
+        "median_seconds": 0.42145229400193784,
+        "min_seconds": 0.399186702001316,
+        "max_seconds": 0.4605130909985746,
+        "repeats": 5,
+        "bridge_assignments": 512,
+        "hub_assignments": 131072,
+        "feasible_assignments": 15484,
+        "histogram_evaluations": 76134
+      }
+    },
+    {
+      "b": 4,
+      "n": 12108,
+      "extra_arms_per_hub": 1000,
+      "solver": {
+        "value": 93526033,
+        "median_seconds": 0.4876432040000509,
+        "min_seconds": 0.46615587799897185,
+        "max_seconds": 0.6865380180024658,
+        "repeats": 5,
+        "bridge_assignments": 512,
+        "hub_assignments": 131072,
+        "feasible_assignments": 15484,
+        "histogram_evaluations": 76236
+      }
+    }
+  ],
+  "strict_gap": [
+    {
+      "family": "T",
+      "m": 2,
+      "n": 7,
+      "bipartite": 23,
+      "oracle": 24,
+      "solver": {
+        "value": 24,
+        "median_seconds": 0.00013282799773151055,
+        "min_seconds": 0.00011525200170581229,
+        "max_seconds": 0.0002361919978284277,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 16,
+        "feasible_assignments": 10,
+        "histogram_evaluations": 10
+      }
+    },
+    {
+      "family": "T",
+      "m": 3,
+      "n": 9,
+      "bipartite": 39,
+      "oracle": 44,
+      "solver": {
+        "value": 44,
+        "median_seconds": 0.0002007490002142731,
+        "min_seconds": 0.00015371900008176453,
+        "max_seconds": 0.0005024890015192796,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 36,
+        "feasible_assignments": 10,
+        "histogram_evaluations": 10
+      }
+    },
+    {
+      "family": "T",
+      "m": 5,
+      "n": 13,
+      "bipartite": 83,
+      "oracle": 102,
+      "solver": {
+        "value": 102,
+        "median_seconds": 0.00015832600183784962,
+        "min_seconds": 0.0001264790007553529,
+        "max_seconds": 0.0004315129990573041,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 36,
+        "feasible_assignments": 10,
+        "histogram_evaluations": 10
+      }
+    },
+    {
+      "family": "T",
+      "m": 10,
+      "n": 23,
+      "bipartite": 263,
+      "oracle": 352,
+      "solver": {
+        "value": 352,
+        "median_seconds": 0.00017187599951284938,
+        "min_seconds": 0.00015181699927779846,
+        "max_seconds": 0.000187139001354808,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 16,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 4
+      }
+    },
+    {
+      "family": "T",
+      "m": 30,
+      "n": 63,
+      "bipartite": 1983,
+      "oracle": null,
+      "solver": {
+        "value": 2852,
+        "median_seconds": 0.0003205419998266734,
+        "min_seconds": 0.00019996400078525767,
+        "max_seconds": 0.00033405099748051725,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 16,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 4
+      }
+    },
+    {
+      "family": "T",
+      "m": 100,
+      "n": 203,
+      "bipartite": 20603,
+      "oracle": null,
+      "solver": {
+        "value": 30502,
+        "median_seconds": 0.000518492997798603,
+        "min_seconds": 0.0005145169998286292,
+        "max_seconds": 0.0014233649999368936,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 16,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 4
+      }
+    },
+    {
+      "family": "T",
+      "m": 1000,
+      "n": 2003,
+      "bipartite": 2006003,
+      "oracle": null,
+      "solver": {
+        "value": 3005002,
+        "median_seconds": 0.0059448380015965085,
+        "min_seconds": 0.005273880997265223,
+        "max_seconds": 0.006177731000207132,
+        "repeats": 3,
+        "bridge_assignments": 4,
+        "hub_assignments": 16,
+        "feasible_assignments": 4,
+        "histogram_evaluations": 4
+      }
+    },
+    {
+      "family": "R",
+      "m": 2,
+      "n": 13,
+      "bipartite": 87,
+      "oracle": 92,
+      "solver": {
+        "value": 92,
+        "median_seconds": 0.0018145199974242132,
+        "min_seconds": 0.0016817649993754458,
+        "max_seconds": 0.0022341679978126194,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 512,
+        "feasible_assignments": 162,
+        "histogram_evaluations": 162
+      }
+    },
+    {
+      "family": "R",
+      "m": 3,
+      "n": 16,
+      "bipartite": 135,
+      "oracle": 149,
+      "solver": {
+        "value": 149,
+        "median_seconds": 0.0024714469982427545,
+        "min_seconds": 0.0021240159985609353,
+        "max_seconds": 0.002552226000261726,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 1728,
+        "feasible_assignments": 162,
+        "histogram_evaluations": 162
+      }
+    },
+    {
+      "family": "R",
+      "m": 5,
+      "n": 22,
+      "bipartite": 258,
+      "oracle": 302,
+      "solver": {
+        "value": 302,
+        "median_seconds": 0.002277792002132628,
+        "min_seconds": 0.002213578001828864,
+        "max_seconds": 0.002668847002496477,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 1728,
+        "feasible_assignments": 162,
+        "histogram_evaluations": 162
+      }
+    },
+    {
+      "family": "R",
+      "m": 10,
+      "n": 37,
+      "bipartite": 723,
+      "oracle": null,
+      "solver": {
+        "value": 912,
+        "median_seconds": 0.0024667500001669396,
+        "min_seconds": 0.001990799999475712,
+        "max_seconds": 0.002568650001194328,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 512,
+        "feasible_assignments": 40,
+        "histogram_evaluations": 40
+      }
+    },
+    {
+      "family": "R",
+      "m": 30,
+      "n": 97,
+      "bipartite": 4833,
+      "oracle": null,
+      "solver": {
+        "value": 6602,
+        "median_seconds": 0.0014482309998129494,
+        "min_seconds": 0.0013327710003068205,
+        "max_seconds": 0.0015621090024069417,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 512,
+        "feasible_assignments": 40,
+        "histogram_evaluations": 40
+      }
+    },
+    {
+      "family": "R",
+      "m": 100,
+      "n": 307,
+      "bipartite": 47568,
+      "oracle": null,
+      "solver": {
+        "value": 67467,
+        "median_seconds": 0.0031032869992486667,
+        "min_seconds": 0.0028041570003551897,
+        "max_seconds": 0.003274939997936599,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 512,
+        "feasible_assignments": 40,
+        "histogram_evaluations": 40
+      }
+    },
+    {
+      "family": "R",
+      "m": 1000,
+      "n": 3007,
+      "bipartite": 4525518,
+      "oracle": null,
+      "solver": {
+        "value": 6524517,
+        "median_seconds": 0.011999499001831282,
+        "min_seconds": 0.011837712001579348,
+        "max_seconds": 0.017962214998988202,
+        "repeats": 3,
+        "bridge_assignments": 64,
+        "hub_assignments": 512,
+        "feasible_assignments": 40,
+        "histogram_evaluations": 40
+      }
+    }
+  ],
+  "targeted": [
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313023,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          15
+        ]
+      ],
+      "optimum": 231,
+      "bipartite": 231,
+      "seconds": 0.01625974000126007,
+      "oracle_seconds": 0.016883325999515364,
+      "bridge_assignments": 288,
+      "hub_assignments": 5184,
+      "feasible_assignments": 1364,
+      "histogram_evaluations": 1884
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313024,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          19,
+          9
+        ]
+      ],
+      "optimum": 230,
+      "bipartite": 230,
+      "seconds": 0.002546608000557171,
+      "oracle_seconds": 0.01429312599793775,
+      "bridge_assignments": 32,
+      "hub_assignments": 1152,
+      "feasible_assignments": 284,
+      "histogram_evaluations": 284
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313025,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          19,
+          15
+        ]
+      ],
+      "optimum": 231,
+      "bipartite": 231,
+      "seconds": 0.01596636800240958,
+      "oracle_seconds": 0.013787709998723585,
+      "bridge_assignments": 256,
+      "hub_assignments": 6144,
+      "feasible_assignments": 1836,
+      "histogram_evaluations": 1836
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313026,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          16
+        ]
+      ],
+      "optimum": 236,
+      "bipartite": 236,
+      "seconds": 0.008036658000492025,
+      "oracle_seconds": 0.015494984003453283,
+      "bridge_assignments": 96,
+      "hub_assignments": 3456,
+      "feasible_assignments": 676,
+      "histogram_evaluations": 676
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313027,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "optimum": 231,
+      "bipartite": 231,
+      "seconds": 0.004913701002806192,
+      "oracle_seconds": 0.012262906002433738,
+      "bridge_assignments": 64,
+      "hub_assignments": 1728,
+      "feasible_assignments": 392,
+      "histogram_evaluations": 392
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313028,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          3,
+          19
+        ]
+      ],
+      "optimum": 239,
+      "bipartite": 235,
+      "seconds": 0.0033117940001829993,
+      "oracle_seconds": 0.013995436998811783,
+      "bridge_assignments": 48,
+      "hub_assignments": 1728,
+      "feasible_assignments": 402,
+      "histogram_evaluations": 402
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313029,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          19,
+          0
+        ]
+      ],
+      "optimum": 231,
+      "bipartite": 231,
+      "seconds": 0.008750257999054156,
+      "oracle_seconds": 0.015896343997155782,
+      "bridge_assignments": 128,
+      "hub_assignments": 3456,
+      "feasible_assignments": 982,
+      "histogram_evaluations": 982
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313030,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "optimum": 236,
+      "bipartite": 236,
+      "seconds": 0.0025371439987793565,
+      "oracle_seconds": 0.016891620001842966,
+      "bridge_assignments": 16,
+      "hub_assignments": 864,
+      "feasible_assignments": 216,
+      "histogram_evaluations": 288
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313031,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          14
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          17
+        ]
+      ],
+      "optimum": 241,
+      "bipartite": 241,
+      "seconds": 0.007199685998784844,
+      "oracle_seconds": 0.013650880002387566,
+      "bridge_assignments": 48,
+      "hub_assignments": 3240,
+      "feasible_assignments": 628,
+      "histogram_evaluations": 758
+    },
+    {
+      "b": 5,
+      "n": 20,
+      "seed": 20313032,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          16,
+          14
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "optimum": 236,
+      "bipartite": 236,
+      "seconds": 0.006956896999327,
+      "oracle_seconds": 0.011970767001912463,
+      "bridge_assignments": 64,
+      "hub_assignments": 2880,
+      "feasible_assignments": 876,
+      "histogram_evaluations": 1040
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313223,
+      "edges": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          16
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          20,
+          12
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          21,
+          1
+        ]
+      ],
+      "optimum": 292,
+      "bipartite": 292,
+      "seconds": 0.0050711730000330135,
+      "oracle_seconds": 0.07901143900016905,
+      "bridge_assignments": 64,
+      "hub_assignments": 3024,
+      "feasible_assignments": 514,
+      "histogram_evaluations": 514
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313224,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          14
+        ]
+      ],
+      "optimum": 284,
+      "bipartite": 284,
+      "seconds": 0.016313559000991518,
+      "oracle_seconds": 0.07659407800019835,
+      "bridge_assignments": 128,
+      "hub_assignments": 8640,
+      "feasible_assignments": 1692,
+      "histogram_evaluations": 1980
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313225,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          18,
+          17
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          20,
+          14
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          6
+        ]
+      ],
+      "optimum": 278,
+      "bipartite": 278,
+      "seconds": 0.011330454999551876,
+      "oracle_seconds": 0.0993040840003232,
+      "bridge_assignments": 64,
+      "hub_assignments": 2592,
+      "feasible_assignments": 760,
+      "histogram_evaluations": 1038
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313226,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          20,
+          5
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          14
+        ]
+      ],
+      "optimum": 290,
+      "bipartite": 290,
+      "seconds": 0.0074120790013694204,
+      "oracle_seconds": 0.09227669099709601,
+      "bridge_assignments": 48,
+      "hub_assignments": 1944,
+      "feasible_assignments": 528,
+      "histogram_evaluations": 892
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313227,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          16,
+          14
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          6
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          21,
+          13
+        ]
+      ],
+      "optimum": 275,
+      "bipartite": 275,
+      "seconds": 0.033916245000000345,
+      "oracle_seconds": 0.11586847200305783,
+      "bridge_assignments": 288,
+      "hub_assignments": 10368,
+      "feasible_assignments": 3072,
+      "histogram_evaluations": 3072
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313228,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          18,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          17
+        ]
+      ],
+      "optimum": 290,
+      "bipartite": 290,
+      "seconds": 0.0035209620000387076,
+      "oracle_seconds": 0.10364145799758262,
+      "bridge_assignments": 16,
+      "hub_assignments": 1080,
+      "feasible_assignments": 224,
+      "histogram_evaluations": 276
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313229,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          20,
+          17
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "optimum": 286,
+      "bipartite": 285,
+      "seconds": 0.018853256002330454,
+      "oracle_seconds": 0.09266908899735427,
+      "bridge_assignments": 128,
+      "hub_assignments": 6720,
+      "feasible_assignments": 892,
+      "histogram_evaluations": 1018
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313230,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          16,
+          14
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          21,
+          20
+        ]
+      ],
+      "optimum": 280,
+      "bipartite": 279,
+      "seconds": 0.015078931999596534,
+      "oracle_seconds": 0.08745982899927185,
+      "bridge_assignments": 192,
+      "hub_assignments": 9072,
+      "feasible_assignments": 840,
+      "histogram_evaluations": 840
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313231,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          21,
+          16
+        ]
+      ],
+      "optimum": 292,
+      "bipartite": 292,
+      "seconds": 0.0049127400016004685,
+      "oracle_seconds": 0.0799038080003811,
+      "bridge_assignments": 64,
+      "hub_assignments": 2304,
+      "feasible_assignments": 602,
+      "histogram_evaluations": 602
+    },
+    {
+      "b": 5,
+      "n": 22,
+      "seed": 20313232,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          21,
+          1
+        ]
+      ],
+      "optimum": 292,
+      "bipartite": 290,
+      "seconds": 0.012317608001467306,
+      "oracle_seconds": 0.07680717599942,
+      "bridge_assignments": 128,
+      "hub_assignments": 8640,
+      "feasible_assignments": 852,
+      "histogram_evaluations": 1224
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313423,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          19,
+          3
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          21,
+          5
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          22,
+          14
+        ],
+        [
+          3,
+          23
+        ]
+      ],
+      "optimum": 349,
+      "bipartite": 349,
+      "seconds": 0.018355084001086652,
+      "oracle_seconds": 0.4591348209978605,
+      "bridge_assignments": 144,
+      "hub_assignments": 10800,
+      "feasible_assignments": 1204,
+      "histogram_evaluations": 1640
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313424,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          23,
+          22
+        ]
+      ],
+      "optimum": 348,
+      "bipartite": 348,
+      "seconds": 0.011038315002224408,
+      "oracle_seconds": 0.3913756519978051,
+      "bridge_assignments": 48,
+      "hub_assignments": 6750,
+      "feasible_assignments": 936,
+      "histogram_evaluations": 936
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313425,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          1,
+          17
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          14
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          23,
+          22
+        ]
+      ],
+      "optimum": 336,
+      "bipartite": 336,
+      "seconds": 0.013895670999772847,
+      "oracle_seconds": 0.3986496379984601,
+      "bridge_assignments": 128,
+      "hub_assignments": 5184,
+      "feasible_assignments": 928,
+      "histogram_evaluations": 1320
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313426,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          22,
+          19
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          23,
+          17
+        ]
+      ],
+      "optimum": 336,
+      "bipartite": 336,
+      "seconds": 0.009356378999655135,
+      "oracle_seconds": 0.3824211840001226,
+      "bridge_assignments": 192,
+      "hub_assignments": 4608,
+      "feasible_assignments": 854,
+      "histogram_evaluations": 854
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313427,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          6
+        ],
+        [
+          2,
+          23
+        ],
+        [
+          23,
+          18
+        ]
+      ],
+      "optimum": 346,
+      "bipartite": 346,
+      "seconds": 0.003507441000692779,
+      "oracle_seconds": 0.38076356500096153,
+      "bridge_assignments": 48,
+      "hub_assignments": 2592,
+      "feasible_assignments": 368,
+      "histogram_evaluations": 368
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313428,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          2,
+          23
+        ]
+      ],
+      "optimum": 339,
+      "bipartite": 332,
+      "seconds": 0.007637108999915654,
+      "oracle_seconds": 0.41745950000040466,
+      "bridge_assignments": 96,
+      "hub_assignments": 5184,
+      "feasible_assignments": 566,
+      "histogram_evaluations": 566
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313429,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          19,
+          17
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          19
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          16,
+          23
+        ],
+        [
+          23,
+          5
+        ]
+      ],
+      "optimum": 357,
+      "bipartite": 357,
+      "seconds": 0.0033774910007196013,
+      "oracle_seconds": 0.4099624449991097,
+      "bridge_assignments": 16,
+      "hub_assignments": 2160,
+      "feasible_assignments": 246,
+      "histogram_evaluations": 246
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313430,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          12,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          6
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          23,
+          2
+        ]
+      ],
+      "optimum": 339,
+      "bipartite": 338,
+      "seconds": 0.006296256000496214,
+      "oracle_seconds": 0.38792460699914955,
+      "bridge_assignments": 64,
+      "hub_assignments": 2880,
+      "feasible_assignments": 564,
+      "histogram_evaluations": 632
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313431,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          18,
+          16
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          20,
+          5
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          23,
+          11
+        ]
+      ],
+      "optimum": 336,
+      "bipartite": 336,
+      "seconds": 0.002035636000073282,
+      "oracle_seconds": 0.36199948099965695,
+      "bridge_assignments": 16,
+      "hub_assignments": 864,
+      "feasible_assignments": 200,
+      "histogram_evaluations": 272
+    },
+    {
+      "b": 5,
+      "n": 24,
+      "seed": 20313432,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          1,
+          17
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          20
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          23,
+          16
+        ]
+      ],
+      "optimum": 336,
+      "bipartite": 336,
+      "seconds": 0.014548240000294754,
+      "oracle_seconds": 0.3596173400001135,
+      "bridge_assignments": 192,
+      "hub_assignments": 6480,
+      "feasible_assignments": 1536,
+      "histogram_evaluations": 1830
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323023,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          19,
+          4
+        ]
+      ],
+      "optimum": 241,
+      "bipartite": 241,
+      "seconds": 0.008891664998373017,
+      "oracle_seconds": 0.01714223399903858,
+      "bridge_assignments": 128,
+      "hub_assignments": 4608,
+      "feasible_assignments": 516,
+      "histogram_evaluations": 516
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323024,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          19,
+          2
+        ]
+      ],
+      "optimum": 233,
+      "bipartite": 233,
+      "seconds": 0.014941444002033677,
+      "oracle_seconds": 0.013417002999631222,
+      "bridge_assignments": 192,
+      "hub_assignments": 6912,
+      "feasible_assignments": 1244,
+      "histogram_evaluations": 1244
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323025,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "optimum": 243,
+      "bipartite": 243,
+      "seconds": 0.013946981998742558,
+      "oracle_seconds": 0.01398503900054493,
+      "bridge_assignments": 128,
+      "hub_assignments": 6912,
+      "feasible_assignments": 1164,
+      "histogram_evaluations": 1556
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323026,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          3,
+          19
+        ]
+      ],
+      "optimum": 239,
+      "bipartite": 239,
+      "seconds": 0.0043864360013685655,
+      "oracle_seconds": 0.012197846001072321,
+      "bridge_assignments": 64,
+      "hub_assignments": 2304,
+      "feasible_assignments": 426,
+      "histogram_evaluations": 576
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323027,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "optimum": 235,
+      "bipartite": 235,
+      "seconds": 0.009245716999430442,
+      "oracle_seconds": 0.012172427999757929,
+      "bridge_assignments": 96,
+      "hub_assignments": 6480,
+      "feasible_assignments": 904,
+      "histogram_evaluations": 904
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323028,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          8
+        ]
+      ],
+      "optimum": 243,
+      "bipartite": 243,
+      "seconds": 0.006274940998991951,
+      "oracle_seconds": 0.01254714699825854,
+      "bridge_assignments": 64,
+      "hub_assignments": 4320,
+      "feasible_assignments": 528,
+      "histogram_evaluations": 712
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323029,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          19,
+          15
+        ]
+      ],
+      "optimum": 233,
+      "bipartite": 233,
+      "seconds": 0.01902123300169478,
+      "oracle_seconds": 0.013319717996637337,
+      "bridge_assignments": 256,
+      "hub_assignments": 10368,
+      "feasible_assignments": 2196,
+      "histogram_evaluations": 2196
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323030,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          19,
+          18
+        ]
+      ],
+      "optimum": 238,
+      "bipartite": 238,
+      "seconds": 0.008305355997435981,
+      "oracle_seconds": 0.014179243997205049,
+      "bridge_assignments": 128,
+      "hub_assignments": 5376,
+      "feasible_assignments": 886,
+      "histogram_evaluations": 886
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323031,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "optimum": 243,
+      "bipartite": 243,
+      "seconds": 0.011505905000376515,
+      "oracle_seconds": 0.015316418001020793,
+      "bridge_assignments": 64,
+      "hub_assignments": 7200,
+      "feasible_assignments": 736,
+      "histogram_evaluations": 824
+    },
+    {
+      "b": 6,
+      "n": 20,
+      "seed": 20323032,
+      "edges": [
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          6
+        ]
+      ],
+      "optimum": 239,
+      "bipartite": 239,
+      "seconds": 0.031116296999243787,
+      "oracle_seconds": 0.014369272001204081,
+      "bridge_assignments": 384,
+      "hub_assignments": 13824,
+      "feasible_assignments": 2528,
+      "histogram_evaluations": 2528
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323223,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          18,
+          17
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          21
+        ]
+      ],
+      "optimum": 293,
+      "bipartite": 293,
+      "seconds": 0.00520430500182556,
+      "oracle_seconds": 0.07229610799913644,
+      "bridge_assignments": 32,
+      "hub_assignments": 2160,
+      "feasible_assignments": 400,
+      "histogram_evaluations": 594
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323224,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          15,
+          0
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          7
+        ]
+      ],
+      "optimum": 281,
+      "bipartite": 281,
+      "seconds": 0.01435340199896018,
+      "oracle_seconds": 0.07081216799997492,
+      "bridge_assignments": 128,
+      "hub_assignments": 7776,
+      "feasible_assignments": 1352,
+      "histogram_evaluations": 1352
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323225,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          18,
+          16
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          19,
+          3
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "optimum": 286,
+      "bipartite": 273,
+      "seconds": 0.030132370000501396,
+      "oracle_seconds": 0.07161464900127612,
+      "bridge_assignments": 384,
+      "hub_assignments": 25920,
+      "feasible_assignments": 2206,
+      "histogram_evaluations": 2206
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323226,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          21,
+          12
+        ]
+      ],
+      "optimum": 288,
+      "bipartite": 288,
+      "seconds": 0.019161984000675147,
+      "oracle_seconds": 0.07042000300134532,
+      "bridge_assignments": 128,
+      "hub_assignments": 10368,
+      "feasible_assignments": 1824,
+      "histogram_evaluations": 2474
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323227,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          17
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          12
+        ],
+        [
+          5,
+          21
+        ]
+      ],
+      "optimum": 287,
+      "bipartite": 287,
+      "seconds": 0.004586033999657957,
+      "oracle_seconds": 0.0672529539988318,
+      "bridge_assignments": 64,
+      "hub_assignments": 2592,
+      "feasible_assignments": 294,
+      "histogram_evaluations": 400
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323228,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          21,
+          17
+        ]
+      ],
+      "optimum": 281,
+      "bipartite": 281,
+      "seconds": 0.009362982000311604,
+      "oracle_seconds": 0.07108968099782942,
+      "bridge_assignments": 96,
+      "hub_assignments": 5184,
+      "feasible_assignments": 1028,
+      "histogram_evaluations": 1028
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323229,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          21,
+          7
+        ]
+      ],
+      "optimum": 287,
+      "bipartite": 287,
+      "seconds": 0.014499024997348897,
+      "oracle_seconds": 0.07222549300058745,
+      "bridge_assignments": 256,
+      "hub_assignments": 9216,
+      "feasible_assignments": 968,
+      "histogram_evaluations": 968
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323230,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          21,
+          10
+        ]
+      ],
+      "optimum": 289,
+      "bipartite": 289,
+      "seconds": 0.016695327001798432,
+      "oracle_seconds": 0.0703585520022898,
+      "bridge_assignments": 64,
+      "hub_assignments": 8640,
+      "feasible_assignments": 1656,
+      "histogram_evaluations": 1968
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323231,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          21,
+          10
+        ]
+      ],
+      "optimum": 281,
+      "bipartite": 281,
+      "seconds": 0.01083925199782243,
+      "oracle_seconds": 0.0692744460029644,
+      "bridge_assignments": 64,
+      "hub_assignments": 5184,
+      "feasible_assignments": 976,
+      "histogram_evaluations": 1356
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "seed": 20323232,
+      "edges": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          21,
+          11
+        ]
+      ],
+      "optimum": 281,
+      "bipartite": 281,
+      "seconds": 0.041796942001383286,
+      "oracle_seconds": 0.07057445299869869,
+      "bridge_assignments": 576,
+      "hub_assignments": 20736,
+      "feasible_assignments": 4018,
+      "histogram_evaluations": 4018
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323423,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          21,
+          17
+        ],
+        [
+          1,
+          22
+        ],
+        [
+          5,
+          23
+        ]
+      ],
+      "optimum": 359,
+      "bipartite": 359,
+      "seconds": 0.009564911997586023,
+      "oracle_seconds": 0.37110326399852056,
+      "bridge_assignments": 96,
+      "hub_assignments": 7560,
+      "feasible_assignments": 582,
+      "histogram_evaluations": 582
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323424,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          6
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          4,
+          23
+        ]
+      ],
+      "optimum": 365,
+      "bipartite": 365,
+      "seconds": 0.0064664160017855465,
+      "oracle_seconds": 0.3500325850000081,
+      "bridge_assignments": 64,
+      "hub_assignments": 4608,
+      "feasible_assignments": 444,
+      "histogram_evaluations": 760
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323425,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          20,
+          6
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          5,
+          23
+        ]
+      ],
+      "optimum": 354,
+      "bipartite": 354,
+      "seconds": 0.037329936003516195,
+      "oracle_seconds": 0.34445474200038007,
+      "bridge_assignments": 192,
+      "hub_assignments": 34020,
+      "feasible_assignments": 2788,
+      "histogram_evaluations": 4180
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323426,
+      "edges": [
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          15,
+          2
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          20,
+          14
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          4,
+          22
+        ],
+        [
+          1,
+          23
+        ]
+      ],
+      "optimum": 349,
+      "bipartite": 349,
+      "seconds": 0.06671503300094628,
+      "oracle_seconds": 0.34340540100311046,
+      "bridge_assignments": 1152,
+      "hub_assignments": 51840,
+      "feasible_assignments": 4748,
+      "histogram_evaluations": 4748
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323427,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          15,
+          12
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          3,
+          17
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          16,
+          23
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "optimum": 359,
+      "bipartite": 359,
+      "seconds": 0.012814490000891965,
+      "oracle_seconds": 0.39616759500131593,
+      "bridge_assignments": 96,
+      "hub_assignments": 13608,
+      "feasible_assignments": 978,
+      "histogram_evaluations": 978
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323428,
+      "edges": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          3,
+          20
+        ],
+        [
+          20,
+          18
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          21,
+          17
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          5,
+          23
+        ],
+        [
+          23,
+          19
+        ]
+      ],
+      "optimum": 337,
+      "bipartite": 337,
+      "seconds": 0.01451062600244768,
+      "oracle_seconds": 0.3408381580011337,
+      "bridge_assignments": 96,
+      "hub_assignments": 7776,
+      "feasible_assignments": 1394,
+      "histogram_evaluations": 1866
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323429,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          21,
+          12
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          22,
+          17
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          23,
+          10
+        ]
+      ],
+      "optimum": 343,
+      "bipartite": 343,
+      "seconds": 0.028905532002681866,
+      "oracle_seconds": 0.3430529349971039,
+      "bridge_assignments": 192,
+      "hub_assignments": 19440,
+      "feasible_assignments": 2652,
+      "histogram_evaluations": 3548
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323430,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          22,
+          16
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          23,
+          3
+        ]
+      ],
+      "optimum": 347,
+      "bipartite": 347,
+      "seconds": 0.012749335000989959,
+      "oracle_seconds": 0.3366097880025336,
+      "bridge_assignments": 64,
+      "hub_assignments": 6048,
+      "feasible_assignments": 1224,
+      "histogram_evaluations": 2010
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323431,
+      "edges": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          16,
+          14
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          17,
+          4
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          20,
+          6
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          21,
+          10
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          22,
+          20
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "optimum": 329,
+      "bipartite": 327,
+      "seconds": 0.011973577002208913,
+      "oracle_seconds": 0.3559982049991959,
+      "bridge_assignments": 128,
+      "hub_assignments": 7776,
+      "feasible_assignments": 1462,
+      "histogram_evaluations": 1462
+    },
+    {
+      "b": 6,
+      "n": 24,
+      "seed": 20323432,
+      "edges": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          5,
+          18
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          17,
+          21
+        ],
+        [
+          21,
+          14
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          5,
+          23
+        ]
+      ],
+      "optimum": 359,
+      "bipartite": 359,
+      "seconds": 0.00317029700090643,
+      "oracle_seconds": 0.36062460399989504,
+      "bridge_assignments": 64,
+      "hub_assignments": 2592,
+      "feasible_assignments": 206,
+      "histogram_evaluations": 206
+    }
+  ],
+  "practical_limits": [
+    {
+      "b": 4,
+      "n": 15,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.0007954360007715877,
+      "optimum": 129,
+      "bridge_assignments": 8,
+      "hub_assignments": 192,
+      "feasible_assignments": 62,
+      "histogram_evaluations": 62,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.19302853899716865
+    },
+    {
+      "b": 5,
+      "n": 19,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.0020292840017646085,
+      "optimum": 209,
+      "bridge_assignments": 16,
+      "hub_assignments": 576,
+      "feasible_assignments": 132,
+      "histogram_evaluations": 172,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.20526961799987475
+    },
+    {
+      "b": 6,
+      "n": 22,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.004468678998819087,
+      "optimum": 283,
+      "bridge_assignments": 32,
+      "hub_assignments": 2304,
+      "feasible_assignments": 402,
+      "histogram_evaluations": 544,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.20429071900070994
+    },
+    {
+      "b": 7,
+      "n": 24,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.012258445000043139,
+      "optimum": 339,
+      "bridge_assignments": 64,
+      "hub_assignments": 7776,
+      "feasible_assignments": 994,
+      "histogram_evaluations": 1324,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.1805962129983527
+    },
+    {
+      "b": 8,
+      "n": 28,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.028374435001751408,
+      "optimum": 461,
+      "bridge_assignments": 128,
+      "hub_assignments": 23328,
+      "feasible_assignments": 2100,
+      "histogram_evaluations": 2816,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.22367816800033324
+    },
+    {
+      "b": 9,
+      "n": 32,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.10310831099923234,
+      "optimum": 599,
+      "bridge_assignments": 256,
+      "hub_assignments": 93312,
+      "feasible_assignments": 6152,
+      "histogram_evaluations": 8252,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.26590597899848945
+    },
+    {
+      "b": 10,
+      "n": 34,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.19170334199952777,
+      "optimum": 681,
+      "bridge_assignments": 512,
+      "hub_assignments": 186624,
+      "feasible_assignments": 8960,
+      "histogram_evaluations": 15110,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.35521780899944133
+    },
+    {
+      "b": 11,
+      "n": 38,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 0.6862265400013712,
+      "optimum": 857,
+      "bridge_assignments": 1024,
+      "hub_assignments": 746496,
+      "feasible_assignments": 25952,
+      "histogram_evaluations": 43714,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.8638221710025391
+    },
+    {
+      "b": 12,
+      "n": 40,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 2.465594894998503,
+      "optimum": 953,
+      "bridge_assignments": 2048,
+      "hub_assignments": 2985984,
+      "feasible_assignments": 73008,
+      "histogram_evaluations": 73008,
+      "status": "completed",
+      "parent_elapsed_seconds": 2.652994182000839
+    },
+    {
+      "b": 13,
+      "n": 44,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "seconds": 13.679967955999018,
+      "optimum": 1167,
+      "bridge_assignments": 4096,
+      "hub_assignments": 15925248,
+      "feasible_assignments": 385878,
+      "histogram_evaluations": 521412,
+      "status": "completed",
+      "parent_elapsed_seconds": 13.844170148000558
+    },
+    {
+      "b": 14,
+      "n": 50,
+      "core_length": 1,
+      "timeout_seconds": 15,
+      "status": "timeout",
+      "parent_elapsed_seconds": 15.01699353100048
+    },
+    {
+      "b": 4,
+      "n": 33,
+      "core_length": 7,
+      "timeout_seconds": 15,
+      "seconds": 0.041654247001133626,
+      "optimum": 597,
+      "bridge_assignments": 512,
+      "hub_assignments": 12288,
+      "feasible_assignments": 7382,
+      "histogram_evaluations": 7382,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.2151496730002691
+    },
+    {
+      "b": 5,
+      "n": 43,
+      "core_length": 7,
+      "timeout_seconds": 15,
+      "seconds": 0.6266362069982279,
+      "optimum": 1013,
+      "bridge_assignments": 4096,
+      "hub_assignments": 147456,
+      "feasible_assignments": 73096,
+      "histogram_evaluations": 99922,
+      "status": "completed",
+      "parent_elapsed_seconds": 0.7998155420027615
+    },
+    {
+      "b": 6,
+      "n": 52,
+      "core_length": 7,
+      "timeout_seconds": 15,
+      "seconds": 8.57564298899888,
+      "optimum": 1483,
+      "bridge_assignments": 32768,
+      "hub_assignments": 2359296,
+      "feasible_assignments": 1016536,
+      "histogram_evaluations": 1388614,
+      "status": "completed",
+      "parent_elapsed_seconds": 8.755289743003232
+    },
+    {
+      "b": 7,
+      "n": 60,
+      "core_length": 7,
+      "timeout_seconds": 15,
+      "status": "timeout",
+      "parent_elapsed_seconds": 15.01715279200289
+    }
+  ],
+  "gap_statistics": {
+    "positive_trees": 1546,
+    "minimum": "136/135",
+    "median": 1.024,
+    "maximum": "140/111",
+    "percentile90_nearest_rank": 1.0793650793650793,
+    "bins": [
+      {
+        "lower_exclusive": "1",
+        "upper_inclusive": "41/40",
+        "count": 809
+      },
+      {
+        "lower_exclusive": "41/40",
+        "upper_inclusive": "21/20",
+        "count": 402
+      },
+      {
+        "lower_exclusive": "21/20",
+        "upper_inclusive": "43/40",
+        "count": 159
+      },
+      {
+        "lower_exclusive": "43/40",
+        "upper_inclusive": "11/10",
+        "count": 105
+      },
+      {
+        "lower_exclusive": "11/10",
+        "upper_inclusive": "9/8",
+        "count": 27
+      },
+      {
+        "lower_exclusive": "9/8",
+        "upper_inclusive": "23/20",
+        "count": 24
+      },
+      {
+        "lower_exclusive": "23/20",
+        "upper_inclusive": "3/2",
+        "count": 20
+      }
+    ],
+    "by_order": [
+      {
+        "n": 2,
+        "trees": 1,
+        "positive": 0,
+        "max_ratio": "1",
+        "max_ratio_decimal": 1.0,
+        "maximizers": 1
+      },
+      {
+        "n": 3,
+        "trees": 1,
+        "positive": 0,
+        "max_ratio": "1",
+        "max_ratio_decimal": 1.0,
+        "maximizers": 1
+      },
+      {
+        "n": 4,
+        "trees": 2,
+        "positive": 0,
+        "max_ratio": "1",
+        "max_ratio_decimal": 1.0,
+        "maximizers": 2
+      },
+      {
+        "n": 5,
+        "trees": 3,
+        "positive": 0,
+        "max_ratio": "1",
+        "max_ratio_decimal": 1.0,
+        "maximizers": 3
+      },
+      {
+        "n": 6,
+        "trees": 6,
+        "positive": 0,
+        "max_ratio": "1",
+        "max_ratio_decimal": 1.0,
+        "maximizers": 6
+      },
+      {
+        "n": 7,
+        "trees": 11,
+        "positive": 1,
+        "max_ratio": "24/23",
+        "max_ratio_decimal": 1.0434782608695652,
+        "maximizers": 1
+      },
+      {
+        "n": 8,
+        "trees": 23,
+        "positive": 1,
+        "max_ratio": "33/31",
+        "max_ratio_decimal": 1.064516129032258,
+        "maximizers": 1
+      },
+      {
+        "n": 9,
+        "trees": 47,
+        "positive": 4,
+        "max_ratio": "44/39",
+        "max_ratio_decimal": 1.1282051282051282,
+        "maximizers": 1
+      },
+      {
+        "n": 10,
+        "trees": 106,
+        "positive": 8,
+        "max_ratio": "8/7",
+        "max_ratio_decimal": 1.1428571428571428,
+        "maximizers": 1
+      },
+      {
+        "n": 11,
+        "trees": 235,
+        "positive": 22,
+        "max_ratio": "70/59",
+        "max_ratio_decimal": 1.1864406779661016,
+        "maximizers": 1
+      },
+      {
+        "n": 12,
+        "trees": 551,
+        "positive": 58,
+        "max_ratio": "85/71",
+        "max_ratio_decimal": 1.1971830985915493,
+        "maximizers": 1
+      },
+      {
+        "n": 13,
+        "trees": 1301,
+        "positive": 136,
+        "max_ratio": "102/83",
+        "max_ratio_decimal": 1.2289156626506024,
+        "maximizers": 1
+      },
+      {
+        "n": 14,
+        "trees": 3159,
+        "positive": 389,
+        "max_ratio": "120/97",
+        "max_ratio_decimal": 1.2371134020618557,
+        "maximizers": 1
+      },
+      {
+        "n": 15,
+        "trees": 7741,
+        "positive": 927,
+        "max_ratio": "140/111",
+        "max_ratio_decimal": 1.2612612612612613,
+        "maximizers": 1
+      }
+    ],
+    "all_maximizers": "gap_extremizers.json"
+  },
+  "timeout_seconds": 15,
+  "mismatches": 0
+}

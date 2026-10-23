@@ -43,7 +43,7 @@ def main():
         assert witness == 3*m*m + 5*m + 2
         assert bipartite == 2*m*m + 6*m + 3
         answer = solve(n, edges)
-        assert answer['value'] >= witness
+        assert answer['value'] == witness
         if n <= 21:
             assert answer['value'] == oracle(n, edges)
         rows.append(dict(m=m, n=n, witness=witness, bipartite=bipartite,

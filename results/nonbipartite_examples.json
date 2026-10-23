@@ -34,6 +34,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 16,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       4,
       2,
@@ -92,6 +93,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       5,
       2,
@@ -156,6 +158,7 @@
     "bridge_assignments": 8,
     "hub_assignments": 32,
     "feasible_assignments": 24,
+    "histogram_evaluations": 24,
     "order": [
       6,
       0,
@@ -222,6 +225,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 16,
+    "histogram_evaluations": 16,
     "order": [
       2,
       5,
@@ -288,6 +292,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 16,
     "feasible_assignments": 6,
+    "histogram_evaluations": 6,
     "order": [
       6,
       2,
@@ -354,6 +359,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 36,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       5,
       2,
@@ -424,6 +430,7 @@
     "bridge_assignments": 8,
     "hub_assignments": 48,
     "feasible_assignments": 24,
+    "histogram_evaluations": 24,
     "order": [
       7,
       0,
@@ -496,6 +503,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 36,
     "feasible_assignments": 16,
+    "histogram_evaluations": 16,
     "order": [
       2,
       6,
@@ -568,6 +576,7 @@
     "bridge_assignments": 16,
     "hub_assignments": 96,
     "feasible_assignments": 42,
+    "histogram_evaluations": 42,
     "order": [
       6,
       1,
@@ -640,6 +649,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       2,
       5,
@@ -712,6 +722,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       2,
       5,
@@ -784,6 +795,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 36,
     "feasible_assignments": 10,
+    "histogram_evaluations": 14,
     "order": [
       6,
       2,
@@ -856,6 +868,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       7,
       2,
@@ -928,6 +941,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 6,
+    "histogram_evaluations": 6,
     "order": [
       6,
       2,
@@ -1004,6 +1018,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 16,
+    "histogram_evaluations": 16,
     "order": [
       3,
       0,
@@ -1079,9 +1094,10 @@
     "bipartite": 63,
     "value": 64,
     "hubs": 2,
-    "bridge_assignments": 10,
-    "hub_assignments": 40,
-    "feasible_assignments": 32,
+    "bridge_assignments": 8,
+    "hub_assignments": 32,
+    "feasible_assignments": 24,
+    "histogram_evaluations": 24,
     "order": [
       8,
       1,
@@ -1160,6 +1176,7 @@
     "bridge_assignments": 8,
     "hub_assignments": 48,
     "feasible_assignments": 38,
+    "histogram_evaluations": 38,
     "order": [
       6,
       1,
@@ -1238,6 +1255,7 @@
     "bridge_assignments": 16,
     "hub_assignments": 144,
     "feasible_assignments": 68,
+    "histogram_evaluations": 68,
     "order": [
       7,
       1,
@@ -1316,6 +1334,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 36,
     "feasible_assignments": 26,
+    "histogram_evaluations": 26,
     "order": [
       6,
       2,
@@ -1394,6 +1413,7 @@
     "bridge_assignments": 8,
     "hub_assignments": 32,
     "feasible_assignments": 14,
+    "histogram_evaluations": 14,
     "order": [
       8,
       0,
@@ -1472,6 +1492,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       2,
       7,
@@ -1550,6 +1571,7 @@
     "bridge_assignments": 8,
     "hub_assignments": 72,
     "feasible_assignments": 24,
+    "histogram_evaluations": 24,
     "order": [
       7,
       0,
@@ -1628,6 +1650,7 @@
     "bridge_assignments": 16,
     "hub_assignments": 144,
     "feasible_assignments": 42,
+    "histogram_evaluations": 42,
     "order": [
       2,
       6,
@@ -1706,6 +1729,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 36,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       2,
       6,
@@ -1784,6 +1808,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 36,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       2,
       6,
@@ -1862,6 +1887,7 @@
     "bridge_assignments": 16,
     "hub_assignments": 128,
     "feasible_assignments": 60,
+    "histogram_evaluations": 60,
     "order": [
       6,
       1,
@@ -1940,6 +1966,7 @@
     "bridge_assignments": 16,
     "hub_assignments": 160,
     "feasible_assignments": 34,
+    "histogram_evaluations": 34,
     "order": [
       6,
       1,
@@ -2018,6 +2045,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 16,
+    "histogram_evaluations": 16,
     "order": [
       2,
       5,
@@ -2096,6 +2124,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 10,
     "order": [
       2,
       5,
@@ -2174,6 +2203,7 @@
     "bridge_assignments": 4,
     "hub_assignments": 24,
     "feasible_assignments": 10,
+    "histogram_evaluations": 14,
     "order": [
       2,
       5,

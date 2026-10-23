@@ -5,8 +5,9 @@
     "max_hubs": 0,
     "nonbipartite_optimum": 0,
     "mismatches": 0,
-    "solver_seconds": 1.8e-05,
-    "oracle_seconds": 6.4e-05
+    "baseline_checks": 1,
+    "solver_seconds": 1.6e-05,
+    "oracle_seconds": 0.000106
   },
   {
     "n": 2,
@@ -14,8 +15,9 @@
     "max_hubs": 0,
     "nonbipartite_optimum": 0,
     "mismatches": 0,
-    "solver_seconds": 2.1e-05,
-    "oracle_seconds": 3.6e-05
+    "baseline_checks": 1,
+    "solver_seconds": 1.8e-05,
+    "oracle_seconds": 0.000117
   },
   {
     "n": 3,
@@ -23,8 +25,9 @@
     "max_hubs": 0,
     "nonbipartite_optimum": 0,
     "mismatches": 0,
-    "solver_seconds": 1.9e-05,
-    "oracle_seconds": 2.5e-05
+    "baseline_checks": 1,
+    "solver_seconds": 2.1e-05,
+    "oracle_seconds": 2.1e-05
   },
   {
     "n": 4,
@@ -32,8 +35,9 @@
     "max_hubs": 1,
     "nonbipartite_optimum": 0,
     "mismatches": 0,
-    "solver_seconds": 0.000235,
-    "oracle_seconds": 3.5e-05
+    "baseline_checks": 2,
+    "solver_seconds": 0.000145,
+    "oracle_seconds": 4.1e-05
   },
   {
     "n": 5,
@@ -41,8 +45,9 @@
     "max_hubs": 1,
     "nonbipartite_optimum": 0,
     "mismatches": 0,
-    "solver_seconds": 0.000202,
-    "oracle_seconds": 3.6e-05
+    "baseline_checks": 3,
+    "solver_seconds": 0.00013,
+    "oracle_seconds": 3.2e-05
   },
   {
     "n": 6,
@@ -50,8 +55,9 @@
     "max_hubs": 2,
     "nonbipartite_optimum": 0,
     "mismatches": 0,
-    "solver_seconds": 0.000455,
-    "oracle_seconds": 5e-05
+    "baseline_checks": 6,
+    "solver_seconds": 0.00045,
+    "oracle_seconds": 4.6e-05
   },
   {
     "n": 7,
@@ -59,8 +65,9 @@
     "max_hubs": 2,
     "nonbipartite_optimum": 1,
     "mismatches": 0,
-    "solver_seconds": 0.001029,
-    "oracle_seconds": 0.000103
+    "baseline_checks": 11,
+    "solver_seconds": 0.000593,
+    "oracle_seconds": 5.9e-05
   },
   {
     "n": 8,
@@ -68,8 +75,9 @@
     "max_hubs": 3,
     "nonbipartite_optimum": 1,
     "mismatches": 0,
-    "solver_seconds": 0.002864,
-    "oracle_seconds": 0.000193
+    "baseline_checks": 22,
+    "solver_seconds": 0.001986,
+    "oracle_seconds": 0.000136
   },
   {
     "n": 9,
@@ -77,8 +85,9 @@
     "max_hubs": 3,
     "nonbipartite_optimum": 4,
     "mismatches": 0,
-    "solver_seconds": 0.007975,
-    "oracle_seconds": 0.000509
+    "baseline_checks": 42,
+    "solver_seconds": 0.004345,
+    "oracle_seconds": 0.000334
   },
   {
     "n": 10,
@@ -86,8 +95,9 @@
     "max_hubs": 4,
     "nonbipartite_optimum": 8,
     "mismatches": 0,
-    "solver_seconds": 0.02778,
-    "oracle_seconds": 0.001089
+    "baseline_checks": 82,
+    "solver_seconds": 0.013427,
+    "oracle_seconds": 0.001156
   },
   {
     "n": 11,
@@ -95,8 +105,9 @@
     "max_hubs": 4,
     "nonbipartite_optimum": 22,
     "mismatches": 0,
-    "solver_seconds": 0.052523,
-    "oracle_seconds": 0.004187
+    "baseline_checks": 151,
+    "solver_seconds": 0.038717,
+    "oracle_seconds": 0.004058
   },
   {
     "n": 12,
@@ -104,8 +115,9 @@
     "max_hubs": 5,
     "nonbipartite_optimum": 58,
     "mismatches": 0,
-    "solver_seconds": 0.172928,
-    "oracle_seconds": 0.020042
+    "baseline_checks": 275,
+    "solver_seconds": 0.133991,
+    "oracle_seconds": 0.019747
   },
   {
     "n": 13,
@@ -113,8 +125,9 @@
     "max_hubs": 5,
     "nonbipartite_optimum": 136,
     "mismatches": 0,
-    "solver_seconds": 0.606157,
-    "oracle_seconds": 0.099372
+    "baseline_checks": 482,
+    "solver_seconds": 0.437621,
+    "oracle_seconds": 0.090015
   },
   {
     "n": 14,
@@ -122,8 +135,9 @@
     "max_hubs": 6,
     "nonbipartite_optimum": 389,
     "mismatches": 0,
-    "solver_seconds": 1.942172,
-    "oracle_seconds": 0.437366
+    "baseline_checks": 828,
+    "solver_seconds": 1.584851,
+    "oracle_seconds": 0.45826
   },
   {
     "n": 15,
@@ -131,7 +145,8 @@
     "max_hubs": 6,
     "nonbipartite_optimum": 927,
     "mismatches": 0,
-    "solver_seconds": 6.813676,
-    "oracle_seconds": 2.238418
+    "baseline_checks": 1380,
+    "solver_seconds": 5.2363,
+    "oracle_seconds": 2.2489
   }
 ]

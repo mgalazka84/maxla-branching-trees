@@ -11,6 +11,7 @@ from pathlib import Path
 import time
 import networkx as nx
 from maxla import solve, bipartite_solution, arrangement_value
+from baseline_two_hubs import solve_two_hubs
 
 HERE = Path(__file__).resolve().parent
 
@@ -34,6 +35,7 @@ def run(max_n, destination):
     for n in range(1, max_n + 1):
         trees = [nx.empty_graph(1)] if n == 1 else nx.nonisomorphic_trees(n)
         count = nonbip = 0
+        baseline_checks = 0
         elapsed_solver = elapsed_oracle = 0
         max_b = 0
         for index, graph in enumerate(trees):
@@ -51,6 +53,11 @@ def run(max_n, destination):
                 (destination / 'FAILURE.json').write_text(json.dumps(failure, indent=2))
                 raise AssertionError(failure)
             baseline = bipartite_solution(n, edges)['value']
+            if answer['hubs'] <= 2:
+                reference = solve_two_hubs(n, edges)
+                assert reference['value'] == exact
+                assert arrangement_value(edges, reference['order']) == exact
+                baseline_checks += 1
             gap = exact - baseline
             if gap and len(examples) < 30:
                 examples.append(dict(n=n, edges=edges, exact=exact,
@@ -62,9 +69,11 @@ def run(max_n, destination):
                                 optimum=exact, bipartite=baseline, gap=gap,
                                 bridge_assignments=answer['bridge_assignments'],
                                 hub_assignments=answer['hub_assignments'],
-                                feasible_assignments=answer['feasible_assignments']))
+                                feasible_assignments=answer['feasible_assignments'],
+                                histogram_evaluations=answer['histogram_evaluations']))
         row = dict(n=n, trees=count, max_hubs=max_b, nonbipartite_optimum=nonbip,
-                   mismatches=0, solver_seconds=round(elapsed_solver,6),
+                   mismatches=0, baseline_checks=baseline_checks,
+                   solver_seconds=round(elapsed_solver,6),
                    oracle_seconds=round(elapsed_oracle,6))
         summaries.append(row)
         print(json.dumps(row), flush=True)

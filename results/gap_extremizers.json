@@ -1,0 +1,918 @@
+[
+  {
+    "n": 2,
+    "index": 0,
+    "hubs": 0,
+    "optimum": 1,
+    "bipartite": 1,
+    "gap": 0,
+    "bridge_assignments": 0,
+    "hub_assignments": 0,
+    "feasible_assignments": 0,
+    "histogram_evaluations": 0,
+    "ratio": "1",
+    "graph6": "A_",
+    "edges": [
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "n": 3,
+    "index": 0,
+    "hubs": 0,
+    "optimum": 3,
+    "bipartite": 3,
+    "gap": 0,
+    "bridge_assignments": 0,
+    "hub_assignments": 0,
+    "feasible_assignments": 0,
+    "histogram_evaluations": 0,
+    "ratio": "1",
+    "graph6": "Bg",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  {
+    "n": 4,
+    "index": 0,
+    "hubs": 0,
+    "optimum": 7,
+    "bipartite": 7,
+    "gap": 0,
+    "bridge_assignments": 0,
+    "hub_assignments": 0,
+    "feasible_assignments": 0,
+    "histogram_evaluations": 0,
+    "ratio": "1",
+    "graph6": "Cq",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "n": 4,
+    "index": 1,
+    "hubs": 1,
+    "optimum": 6,
+    "bipartite": 6,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 2,
+    "feasible_assignments": 2,
+    "histogram_evaluations": 2,
+    "ratio": "1",
+    "graph6": "Ci",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  {
+    "n": 5,
+    "index": 0,
+    "hubs": 0,
+    "optimum": 11,
+    "bipartite": 11,
+    "gap": 0,
+    "bridge_assignments": 0,
+    "hub_assignments": 0,
+    "feasible_assignments": 0,
+    "histogram_evaluations": 0,
+    "ratio": "1",
+    "graph6": "DqC",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "n": 5,
+    "index": 1,
+    "hubs": 1,
+    "optimum": 12,
+    "bipartite": 12,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 4,
+    "feasible_assignments": 4,
+    "histogram_evaluations": 4,
+    "ratio": "1",
+    "graph6": "DqO",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "n": 5,
+    "index": 2,
+    "hubs": 1,
+    "optimum": 10,
+    "bipartite": 10,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 3,
+    "feasible_assignments": 3,
+    "histogram_evaluations": 3,
+    "ratio": "1",
+    "graph6": "DiO",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "index": 0,
+    "hubs": 0,
+    "optimum": 17,
+    "bipartite": 17,
+    "gap": 0,
+    "bridge_assignments": 0,
+    "hub_assignments": 0,
+    "feasible_assignments": 0,
+    "histogram_evaluations": 0,
+    "ratio": "1",
+    "graph6": "EpOG",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "index": 1,
+    "hubs": 1,
+    "optimum": 17,
+    "bipartite": 17,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 4,
+    "feasible_assignments": 4,
+    "histogram_evaluations": 4,
+    "ratio": "1",
+    "graph6": "EsOG",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "index": 2,
+    "hubs": 2,
+    "optimum": 19,
+    "bipartite": 19,
+    "gap": 0,
+    "bridge_assignments": 2,
+    "hub_assignments": 8,
+    "feasible_assignments": 6,
+    "histogram_evaluations": 6,
+    "ratio": "1",
+    "graph6": "EsP?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "index": 3,
+    "hubs": 1,
+    "optimum": 18,
+    "bipartite": 18,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 4,
+    "feasible_assignments": 4,
+    "histogram_evaluations": 4,
+    "ratio": "1",
+    "graph6": "EqD?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "index": 4,
+    "hubs": 1,
+    "optimum": 18,
+    "bipartite": 18,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 3,
+    "feasible_assignments": 3,
+    "histogram_evaluations": 4,
+    "ratio": "1",
+    "graph6": "EqP?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "index": 5,
+    "hubs": 1,
+    "optimum": 15,
+    "bipartite": 15,
+    "gap": 0,
+    "bridge_assignments": 1,
+    "hub_assignments": 2,
+    "feasible_assignments": 2,
+    "histogram_evaluations": 2,
+    "ratio": "1",
+    "graph6": "EiP?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  },
+  {
+    "n": 7,
+    "index": 4,
+    "hubs": 2,
+    "optimum": 24,
+    "bipartite": 23,
+    "gap": 1,
+    "bridge_assignments": 4,
+    "hub_assignments": 16,
+    "feasible_assignments": 10,
+    "histogram_evaluations": 10,
+    "ratio": "24/23",
+    "graph6": "FsOGO",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  },
+  {
+    "n": 8,
+    "index": 12,
+    "hubs": 2,
+    "optimum": 33,
+    "bipartite": 31,
+    "gap": 2,
+    "bridge_assignments": 4,
+    "hub_assignments": 24,
+    "feasible_assignments": 10,
+    "histogram_evaluations": 10,
+    "ratio": "33/31",
+    "graph6": "Gs`?GG",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  },
+  {
+    "n": 9,
+    "index": 32,
+    "hubs": 2,
+    "optimum": 44,
+    "bipartite": 39,
+    "gap": 5,
+    "bridge_assignments": 4,
+    "hub_assignments": 36,
+    "feasible_assignments": 10,
+    "histogram_evaluations": 10,
+    "ratio": "44/39",
+    "graph6": "Hs`?GGC",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ]
+    ]
+  },
+  {
+    "n": 10,
+    "index": 83,
+    "hubs": 2,
+    "optimum": 56,
+    "bipartite": 49,
+    "gap": 7,
+    "bridge_assignments": 4,
+    "hub_assignments": 24,
+    "feasible_assignments": 6,
+    "histogram_evaluations": 6,
+    "ratio": "8/7",
+    "graph6": "IsaA?CA?_",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ]
+    ]
+  },
+  {
+    "n": 11,
+    "index": 205,
+    "hubs": 2,
+    "optimum": 70,
+    "bipartite": 59,
+    "gap": 11,
+    "bridge_assignments": 4,
+    "hub_assignments": 16,
+    "feasible_assignments": 4,
+    "histogram_evaluations": 4,
+    "ratio": "70/59",
+    "graph6": "JsaA?CA?_C?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ]
+    ]
+  },
+  {
+    "n": 12,
+    "index": 507,
+    "hubs": 2,
+    "optimum": 85,
+    "bipartite": 71,
+    "gap": 14,
+    "bridge_assignments": 4,
+    "hub_assignments": 24,
+    "feasible_assignments": 6,
+    "histogram_evaluations": 6,
+    "ratio": "85/71",
+    "graph6": "KsaCA?@?OA?G",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        11
+      ]
+    ]
+  },
+  {
+    "n": 13,
+    "index": 1243,
+    "hubs": 2,
+    "optimum": 102,
+    "bipartite": 83,
+    "gap": 19,
+    "bridge_assignments": 4,
+    "hub_assignments": 36,
+    "feasible_assignments": 10,
+    "histogram_evaluations": 10,
+    "ratio": "102/83",
+    "graph6": "LsaCA?@?OA?G?O",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        12
+      ]
+    ]
+  },
+  {
+    "n": 14,
+    "index": 3077,
+    "hubs": 2,
+    "optimum": 120,
+    "bipartite": 97,
+    "gap": 23,
+    "bridge_assignments": 4,
+    "hub_assignments": 24,
+    "feasible_assignments": 6,
+    "histogram_evaluations": 6,
+    "ratio": "120/97",
+    "graph6": "MsaCC@??G@?C?G?G?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        13
+      ]
+    ]
+  },
+  {
+    "n": 15,
+    "index": 7636,
+    "hubs": 2,
+    "optimum": 140,
+    "bipartite": 111,
+    "gap": 29,
+    "bridge_assignments": 4,
+    "hub_assignments": 16,
+    "feasible_assignments": 4,
+    "histogram_evaluations": 4,
+    "ratio": "140/111",
+    "graph6": "NsaCC@??G@?C?G?G?C?",
+    "edges": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        14
+      ]
+    ]
+  }
+]

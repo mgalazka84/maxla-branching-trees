@@ -1,6 +1,6 @@
 """Exact maximum linear arrangement of unweighted trees, parameterized by hubs.
 
-Reference implementation, version 1.0.0. Standard library only.
+Reference implementation, version 1.1.0. Standard library only.
 Hubs are vertices of degree at least three. Input trees are unweighted.
 """
 from collections import Counter
@@ -98,10 +98,10 @@ def bridge_profiles(length):
     positions = {-1}
     if length >= 2:
         positions.update((1, length - 1))
-        for parity in (0, 1):
-            candidate = 2 if parity == 0 else 3
-            if candidate <= length - 2:
-                positions.add(candidate)
+        # Every interior zero has the same boundary levels and histogram.
+        # Telescoping fixes the signed difference of the +2 and -2 counts.
+        if length >= 4:
+            positions.add(2)
     out = []
     for zero in sorted(positions):
         for first in (-1, 1):
@@ -111,7 +111,7 @@ def bridge_profiles(length):
                                levels[0] if levels else None,
                                levels[-1] if levels else None,
                                levels.count(2), levels.count(-2), levels.count(0)))
-    assert len(out) <= 10
+    assert len(out) <= 8
     return out
 
 
@@ -177,7 +177,8 @@ def solve(n, edges, reconstruct=True):
     baseline = bipartite_solution(n, edges)
     if b == 0:
         return {**baseline, "hubs": 0, "bridge_assignments": 0,
-                "hub_assignments": 0, "feasible_assignments": 0}
+                "hub_assignments": 0, "feasible_assignments": 0,
+                "histogram_evaluations": 0}
     categories = []
     balanced = even_count = odd_count = 0
     for paths in antennas:
@@ -193,7 +194,7 @@ def solve(n, edges, reconstruct=True):
     profiles = [bridge_profiles(len(path) - 1) for _, _, path in bridges]
     best = baseline["value"]
     best_data = None
-    bridge_assignments = hub_assignments = feasible_assignments = 0
+    bridge_assignments = hub_assignments = feasible_assignments = histogram_evaluations = 0
     for chosen in product(*profiles):
         bridge_assignments += 1
         core_sums = [0] * b
@@ -227,8 +228,13 @@ def solve(n, edges, reconstruct=True):
             lo = sum(s[2] for s in states)
             hi = sum(s[3] for s in states)
             p_total = sum(s[1] for s in states)
+            value_cache = {}
 
             def value(e):
+                nonlocal histogram_evaluations
+                if e in value_cache:
+                    return value_cache[e]
+                histogram_evaluations += 1
                 hist = Counter(levels)
                 hist[2] += cp + balanced + even_count - e
                 hist[-2] += cm + balanced + e
@@ -236,7 +242,8 @@ def solve(n, edges, reconstruct=True):
                 leaf_plus = odd_count - p_total + 2 * e
                 hist[1] += leaf_plus
                 hist[-1] += odd_count + even_count - leaf_plus
-                return histogram_value(hist)
+                value_cache[e] = histogram_value(hist)
+                return value_cache[e]
 
             candidate_es = {lo, hi}
             f_lo = value(lo)
@@ -253,7 +260,8 @@ def solve(n, edges, reconstruct=True):
     result = {"value": best, "hubs": b,
               "bridge_assignments": bridge_assignments,
               "hub_assignments": hub_assignments,
-              "feasible_assignments": feasible_assignments}
+              "feasible_assignments": feasible_assignments,
+              "histogram_evaluations": histogram_evaluations}
     if not reconstruct:
         return result
     if best_data is None:
