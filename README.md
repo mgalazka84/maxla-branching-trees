@@ -6,7 +6,7 @@ as large as possible**?
 
 The solver is parameterized by the number `b` of branching vertices (vertices
 of degree at least three). Its time bound is `O(n + 32^b b log(b+2))` for `b >= 1`,
-with a linear-time path case. Degrees and path lengths may be arbitrarily
+with a linear-time path case and `O(n)` space. Degrees and path lengths may be arbitrarily
 large. The dependence on `b` is exponential; this is not a polynomial-time
 solver for unrestricted trees. Edges must have unit weight.
 
@@ -108,6 +108,11 @@ that all strictly interior zero positions have the same endpoint data and
 histogram, regardless of parity. There are at most four states per odd-degree
 hub and three per even-degree hub. A single concave integer variable handles
 all residual antenna choices. Histogram evaluation uses sorted prefix sums.
+The solver uses `O(n)` space: adjacency/path lists and reconstruction arrays
+are linear in the input size, while profiles, hub states, the current and best
+assignments, and the histogram use `O(b)` space. It does not store a matrix
+of pairwise level interactions. The independent subset oracle has its own
+exponential space bound.
 
 `baseline_two_hubs.py` independently implements the characterization in
 Alemany-Puig, Esteban and Ferrer-i-Cancho (2026), Section 5.2, Algorithms 4.1/5.2
@@ -145,6 +150,13 @@ feasible assignments after boundary checks, and actual histogram evaluations.
 Repeated scalar values within one state are cached. The implementation uses
 parity, local antenna intervals and boundary filtering, with no hidden
 branch-and-bound pruning. Run without Python `-O` to keep all assertions active.
+
+## Authors
+
+Marek Gałązka and Hanna Wdowicka.
+
+See `CITATION.cff` for the software citation. Authorship metadata was updated
+on 23 October 2026; the solver and recorded results are unchanged from v1.1.0.
 
 ## Version and license
 
